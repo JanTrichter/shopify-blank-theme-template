@@ -20,7 +20,7 @@ This guide is editor agnostic, although [Visual Studio Code](https://code.visual
 ### Step by step setup guide
  1. **[Create a copy](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)** of the template repository
  2. **[Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)** the repository that you just created and open it in the IDE of your choice
- 3. **Replace** the data in the `config/schema_settings.json` with your own data
+ 3. **Replace** the data in the `config/schema_settings.json` with your own data<br>
  *You can keep the `name` field as is but replace the `theme_name`, `theme_version`, `theme_author`, `theme_documentation_url` and `theme_support_url` with your own data.*
  4. **Commit and push your changes** to your GitHub repository
  5. **[Follow Shopify's Tutorial](https://shopify.dev/docs/themes/tools/github/getting-started)** on how to connect to and publish from your GitHub repository
@@ -34,7 +34,7 @@ This guide is editor agnostic, although [Visual Studio Code](https://code.visual
 ```bash
 theme get --list --password=[yourPassword] --store=[yourStore]
 ```
-`yourPassword`: The password you just created from Theme Access
+`yourPassword`: The password you just created from Theme Access<br>
 `yourStore`: the domain of your store usually in the format yourstore.myshopify.com
 
 5. **Create the config.yml file**
