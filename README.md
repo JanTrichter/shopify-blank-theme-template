@@ -18,12 +18,12 @@ This section will show you how to create your own copy of this template and link
 This guide is editor agnostic, although [Visual Studio Code](https://code.visualstudio.com/) is recommended. You should also have the [Shopify CLI](https://shopify.dev/docs/themes/tools/cli/install) and [Theme Kit](https://shopify.dev/docs/themes/tools/theme-kit/getting-started) installed for convenience. Furthermore you should also have Git installed and posses some [basic Git skills](https://www.atlassian.com/git), as well as knowledge of HTML, CSS, JavaScript and Liquid.
 
 ### Step by step setup guide
- 1. **[Create a copy](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)** of the template repository
- 2. **[Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)** the repository that you just created and open it in the IDE of your choice
+ 1. **[Create a copy](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)** of the template repository<br>
+ 2. **[Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)** the repository that you just created and open it in the IDE of your choice<br>
  3. **Replace** the data in the `config/schema_settings.json` with your own data<br>
- *You can keep the `name` field as is but replace the `theme_name`, `theme_version`, `theme_author`, `theme_documentation_url` and `theme_support_url` with your own data.*
- 4. **Commit and push your changes** to your GitHub repository
- 5. **[Follow Shopify's Tutorial](https://shopify.dev/docs/themes/tools/github/getting-started)** on how to connect to and publish from your GitHub repository
+ *You can keep the `name` field as is but replace the `theme_name`, `theme_version`, `theme_author`, `theme_documentation_url` and `theme_support_url` with your own data.*<br>
+ 4. **Commit and push your changes** to your GitHub repository<br>
+ 5. **[Follow Shopify's Tutorial](https://shopify.dev/docs/themes/tools/github/getting-started)** on how to connect to and publish from your GitHub repository<br>
 
 #### Update the shop on save `(optional but recommended)`
 1. **Create Access** to your store with [Theme Access](https://apps.shopify.com/theme-access) and copy the generated password
