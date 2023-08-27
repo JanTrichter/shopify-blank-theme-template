@@ -5,6 +5,8 @@ A blank theme template to help you get started building Shopify themes from scra
 ## Target Audience
 **This template is for developers who want to create their own Shopify theme with Liquid from *scratch*.**
 
+If you want to start with a small template that comes with some dummy data check out the [Theme Kit Starter](https://shopify.dev/docs/themes/tools/theme-kit/getting-started). Check out the [Shopify-CLI Dawn template tutorial](https://shopify.dev/docs/themes/getting-started/create) if you want a complete and optimised template with tutorial.
+
 If you want to build a custom web storefront and you are familiar with React you might want to check out [Hydrogen](https://hydrogen.shopify.dev/).
 
 If you want to build your own custom frontend, app or game with your own tools and frameworks, check out the [Shopify Storefront API](https://shopify.dev/docs/api/storefront).
