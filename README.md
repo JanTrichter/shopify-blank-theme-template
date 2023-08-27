@@ -1,3 +1,4 @@
+
 # Shopify Blank Template
 A blank theme template to help you get started building Shopify themes from scratch.
 
@@ -25,20 +26,23 @@ This guide is editor agnostic, although [Visual Studio Code](https://code.visual
 #### Update the shop on save `(optional but recommended)`
 1. **Create Access** to your store with [Theme Access](https://apps.shopify.com/theme-access) and copy the generated password
 
-2. **Get the theme id**
+3. **Open a terminal window in your project's root folder**
+
+4. **Get the theme id with Theme Kit**
 ```bash
 theme get --list --password=[yourPassword] --store=[yourStore]
 ```
 `yourPassword`: The password you just created from Theme Access
 `yourStore`: the domain of your store usually in the format yourstore.myshopify.com
 
-3. **Create the config.yml file**
+5. **Create the config.yml file**
 ```bash
 theme get  --password=[yourPassword] --store=[yourStore] --themeid=[yourThemeId]
 ```
 `yourThemeId`: The theme id (in [...])that you get when you run the previous step
+> This step will create a `config.yml` file in your project's root directory right next to your `.gitignore` file and the `README.md`. This file **contains sensitive information** so make sure you don't publish it into a public Git repository. You can also add it to the `.gitignore` file.
 
-4. **Update the store on file change**
+6. **Update the store on file change**
 ```bash
 theme watch
 ```
